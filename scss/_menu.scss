@@ -1,0 +1,29 @@
+// MENU DE NAVEGACION
+
+.header_menu{
+    list-style: none;
+    padding: 0%;
+    ul {
+        background-color: rgb(146, 233, 233);
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+    }
+    li{
+        display: inline-block;
+        align-items: center;
+    }
+    a{ text: {
+decoration: none; 
+transform: uppercase; 
+align:center;
+
+} 
+font: {
+family: sans-serif;
+size: 20px;
+};
+color:rgb(130, 128, 247);
+padding:4%;
+background-color: rgb(206, 197, 247);
+}
+    }

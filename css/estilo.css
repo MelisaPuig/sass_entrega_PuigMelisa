@@ -1,0 +1,125 @@
+.header_menu {
+  list-style: none;
+  padding: 0%;
+}
+
+.header_menu ul {
+  background-color: #92e9e9;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+.header_menu li {
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #8280f7;
+  padding: 4%;
+  background-color: #cec5f7;
+}
+
+.border {
+  background-color: aquamarine;
+}
+
+.border .redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: auto auto;
+  text-align: center;
+  width: 50%;
+  max-width: 45rem;
+}
+
+.footer__item {
+  width: 3rem;
+  height: auto;
+  max-height: 3rem;
+}
+
+.footer__item .img {
+  height: 100%;
+  width: 100%;
+}
+
+@media all and (min-width: 768px) {
+  .card {
+    max-width: 16rem;
+    width: 45%;
+  }
+  .card .text {
+    height: 14rem;
+    padding: 5px;
+  }
+}
+
+section#principal {
+  background: aqua;
+}
+
+section#principal .border {
+  background: aqua;
+}
+
+.container .titulo {
+  text-align: justify;
+  font-family: normal 24px/1.5 "Open Sans", sans-serif;
+}
+
+.container .container__galeria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.container .imagen_centrada__contenedor {
+  text-align: center;
+  width: 100%;
+}
+
+.container .imagen_centrada__contenido {
+  height: auto;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.container .tabla {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container .tabla .td,
+.container .tabla .th {
+  padding: 1rem;
+}
+/*# sourceMappingURL=estilo.css.map */

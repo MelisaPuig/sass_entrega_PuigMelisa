@@ -1,0 +1,28 @@
+// FOOTER
+.border{
+    background-color: aquamarine;
+  
+  .redes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto auto;
+    text-align: center;
+    width: 50%;
+    max-width: 45rem;
+  }
+
+
+  }
+  
+  .footer__item{
+    width: 3rem;
+    height: auto;
+    max-height: 3rem;
+  .img{
+    height: 100%;
+    width: 100%;
+
+    }
+  }

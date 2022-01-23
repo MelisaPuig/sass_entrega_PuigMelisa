@@ -1,0 +1,60 @@
+
+// CONTENIDO PRINCIPAL
+
+@media all and (min-width: 768px) {
+    .card {
+      max-width: 16rem;
+      width: 45%;
+    .text {
+      height: 14rem;
+      padding: 5px;
+    }
+  }
+  
+  }
+  section#principal {
+    background:$color-principal;
+    .border{
+      background:$color-principal;
+  
+    }
+  }
+  .container{
+    .titulo{
+      text-align: justify;
+      font-family:$title-font;
+      }
+  
+  
+  
+  .container__galeria{
+    display: flex;
+      align-content: space-between;
+      justify-content: space-evenly;
+      align-items: flex-end;
+    }
+  
+  
+  .imagen_centrada__contenedor {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .imagen_centrada__contenido {
+    height: auto;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+  
+  .tabla {
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 1rem;
+  .td,
+  .th {
+    padding: 1rem;
+  }
+  }
+  
+  }
